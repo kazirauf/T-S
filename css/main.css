@@ -1,0 +1,107 @@
+/* navbar styles */
+nav{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+    padding: 20px;
+}
+.navbar-title{
+    font-size: 30px;
+    color: #335575;
+}
+.nav-links-main-container ul{
+  display: flex;
+  gap: 20px;
+}
+.nav-links-main-container ul li{
+  list-style: none;
+}
+.nav-links-main-container ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.nav-links-main-container ul li a:active{
+  text-decoration: underline;
+  color: #DB7a4e;
+}
+/* hero section style */
+.hero-main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 60px;
+    height: 700px;
+    background-color: #FFFAF5;
+}
+.hero-section-img{
+    width: 550px;
+}
+.hero--section-title{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #335576;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.hero-section-description{
+    font-size: 20px;
+    color: #335576;
+    margin-top: 20px;
+    width: 71%;
+}
+.hero-section-btn{
+    padding: 15px 70px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 0px;
+    background-color: #DB7A4E;
+    font-size: 18px;
+    color: #fff;
+    
+
+}
+/* Recommendations section style */
+.recommendations-main-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-top: 50px;
+}
+.recommendation-title{
+    color: #335576;
+    font-size: 40px;
+    margin-left: 60px;
+    
+}
+.destination-card-container img{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px rgba(9, 2, 2, 0.5);
+    border: 1px solid rgba(9, 2, 2, 0.5);
+    border-radius: 5px;
+
+   
+}
+
+.destination-card-title{
+    width: 300px;
+    display: flex;
+    justify-content: end;
+    
+}
+.destination-card-title h3{
+
+  position: absolute;
+  margin-top: -80px;
+  margin-right: 30px;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.recommendations-main-container{
+   
+}
